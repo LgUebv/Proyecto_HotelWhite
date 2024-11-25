@@ -12,12 +12,24 @@ namespace ProyectoHotel
 {
     public partial class frmReservaciones : Form
     {
-        public frmReservaciones()
+        public string nivelUsuario;
+        public frmReservaciones(string nivelUsuario)
         {
             InitializeComponent();
+            this.nivelUsuario = nivelUsuario;
         }
 
-        private void pListas_Paint(object sender, PaintEventArgs e)
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtgvReservaciones_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void txtReservaciones_TextChanged(object sender, EventArgs e)
         {
 
         }

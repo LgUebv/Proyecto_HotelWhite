@@ -10,16 +10,14 @@ using System.Windows.Forms;
 
 namespace ProyectoHotel
 {
-    public partial class frmClientes : Form
+    public partial class frmDatosReservaciones : Form
     {
-        public string nivelUsuario;
-        public frmClientes(string nivelUsuario)
+        public frmDatosReservaciones()
         {
             InitializeComponent();
-            this.nivelUsuario = nivelUsuario;
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+        private void pListas_Paint(object sender, PaintEventArgs e)
         {
 
         }

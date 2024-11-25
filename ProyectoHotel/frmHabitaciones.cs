@@ -12,9 +12,17 @@ namespace ProyectoHotel
 {
     public partial class frmHabitaciones : Form
     {
-        public frmHabitaciones()
+        private string nivelUsuario;
+
+        public frmHabitaciones(string nivelUsuario)
         {
             InitializeComponent();
+            this.nivelUsuario = nivelUsuario;
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

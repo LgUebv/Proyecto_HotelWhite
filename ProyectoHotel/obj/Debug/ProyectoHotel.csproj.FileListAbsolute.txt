@@ -51,3 +51,4 @@ C:\Users\josem\source\repos\ProyectoHotel\ProyectoHotel\bin\Debug\K4os.Compressi
 C:\Users\josem\source\repos\ProyectoHotel\ProyectoHotel\bin\Debug\System.IO.Pipelines.xml
 C:\Users\josem\source\repos\ProyectoHotel\ProyectoHotel\bin\Debug\K4os.Hash.xxHash.xml
 C:\Users\josem\source\repos\ProyectoHotel\ProyectoHotel\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\josem\source\repos\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.frmDatosReservaciones.resources

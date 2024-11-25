@@ -23,19 +23,19 @@ namespace ProyectoHotel
 
         private void optHabitacion_Click(object sender, EventArgs e)
         {
-            frmHabitaciones H = new frmHabitaciones();
+            frmHabitaciones H = new frmHabitaciones(nivelUsuario);
             H.Show();
         }
 
         private void optClientes_Click(object sender, EventArgs e)
         {
-            frmClientes C = new frmClientes();
+            frmClientes C = new frmClientes(nivelUsuario);
             C.Show();
         }
 
         private void optReservacion_Click(object sender, EventArgs e)
         {
-            frmReservaciones Re = new frmReservaciones();
+            frmReservaciones Re = new frmReservaciones(nivelUsuario);
             Re.Show();
         }
 
