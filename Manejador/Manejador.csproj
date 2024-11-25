@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ManejadorCliente.cs" />
     <Compile Include="ManejadorHabitaciones.cs" />
+    <Compile Include="ManejadorReservaciones.cs" />
     <Compile Include="ManejadorUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
