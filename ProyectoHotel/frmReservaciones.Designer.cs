@@ -40,67 +40,75 @@
             // 
             // txtDias
             // 
-            this.txtDias.Location = new System.Drawing.Point(615, 23);
+            this.txtDias.Location = new System.Drawing.Point(461, 19);
+            this.txtDias.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtDias.Multiline = true;
             this.txtDias.Name = "txtDias";
-            this.txtDias.Size = new System.Drawing.Size(107, 33);
+            this.txtDias.Size = new System.Drawing.Size(81, 28);
             this.txtDias.TabIndex = 12;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(529, 25);
+            this.label1.Location = new System.Drawing.Point(397, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 16);
+            this.label1.Size = new System.Drawing.Size(28, 13);
             this.label1.TabIndex = 11;
             this.label1.Text = "Dias";
             // 
             // dtgvClientes
             // 
             this.dtgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvClientes.Location = new System.Drawing.Point(12, 10);
+            this.dtgvClientes.Location = new System.Drawing.Point(9, 8);
+            this.dtgvClientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtgvClientes.Name = "dtgvClientes";
             this.dtgvClientes.RowHeadersWidth = 51;
-            this.dtgvClientes.Size = new System.Drawing.Size(454, 178);
+            this.dtgvClientes.Size = new System.Drawing.Size(340, 145);
             this.dtgvClientes.TabIndex = 10;
             // 
             // pListas
             // 
             this.pListas.AutoScroll = true;
-            this.pListas.Location = new System.Drawing.Point(491, 84);
+            this.pListas.Location = new System.Drawing.Point(368, 69);
+            this.pListas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pListas.Name = "pListas";
-            this.pListas.Size = new System.Drawing.Size(391, 291);
+            this.pListas.Size = new System.Drawing.Size(293, 236);
             this.pListas.TabIndex = 9;
+            this.pListas.Paint += new System.Windows.Forms.PaintEventHandler(this.pListas_Paint);
             // 
             // dtgvHabitaciones
             // 
             this.dtgvHabitaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvHabitaciones.Location = new System.Drawing.Point(12, 197);
+            this.dtgvHabitaciones.Location = new System.Drawing.Point(9, 160);
+            this.dtgvHabitaciones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtgvHabitaciones.Name = "dtgvHabitaciones";
             this.dtgvHabitaciones.RowHeadersWidth = 51;
-            this.dtgvHabitaciones.Size = new System.Drawing.Size(454, 178);
+            this.dtgvHabitaciones.Size = new System.Drawing.Size(340, 145);
             this.dtgvHabitaciones.TabIndex = 8;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(748, 9);
+            this.btnAgregar.Location = new System.Drawing.Point(561, 7);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(134, 59);
+            this.btnAgregar.Size = new System.Drawing.Size(100, 48);
             this.btnAgregar.TabIndex = 7;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
             // frmReservaciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(909, 395);
+            this.ClientSize = new System.Drawing.Size(682, 321);
             this.Controls.Add(this.txtDias);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dtgvClientes);
             this.Controls.Add(this.pListas);
             this.Controls.Add(this.dtgvHabitaciones);
             this.Controls.Add(this.btnAgregar);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmReservaciones";
             this.Text = "frmReservaciones";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvClientes)).EndInit();

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3FA9FF4-EFF0-4F4B-ACC4-A6C61C9EDB3C}|Manejador\\Manejador.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\manejador\\manejadorhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3FA9FF4-EFF0-4F4B-ACC4-A6C61C9EDB3C}|Manejador\\Manejador.csproj|solutionrelative:manejador\\manejadorhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,7 +13,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 387,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -27,14 +27,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\Form1.cs",
-              "RelativeDocumentMoniker": "ProyectoHotel\\Form1.cs",
-              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoHotel\\Form1.cs [Dise\u00F1o]",
+              "Title": "ManejadorHabitaciones.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\Manejador\\ManejadorHabitaciones.cs",
+              "RelativeDocumentMoniker": "Manejador\\ManejadorHabitaciones.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\Manejador\\ManejadorHabitaciones.cs",
+              "RelativeToolTip": "Manejador\\ManejadorHabitaciones.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:22:26.389Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-25T19:09:33.203Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -9,26 +9,26 @@ using System.Windows.Forms;
 
 namespace Manejador
 {
-    public class ManejadorCliente
+    public class ManejadorUsuario
     {
         Funciones f = new Funciones();
-        public void Guardar(TextBox Nombre, TextBox ApellidoP, TextBox ApellidoM, TextBox Email, TextBox Telefono)
+        public void Guardar(TextBox Nick, TextBox Clave, ComboBox Rol, TextBox Nombre, TextBox Apellidos)
         {
-            MessageBox.Show(f.Guardar($"call p_AgregarCliente ('{Nombre.Text}', '{ApellidoP.Text}', '{ApellidoM.Text}', '{Email.Text}', '{Telefono.Text}');"),
+            MessageBox.Show(f.Guardar($"call p_AgregarUsuario ('{Nick.Text}', sha1('{Clave.Text}'), '{Rol.Text}', '{Nombre.Text}', '{Apellidos.Text}')"),
                 "Atencion!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-        public void Borrar(int IDC, string dato)
+        public void Borrar(int IDU, string dato)
         {
             DialogResult rs = MessageBox.Show($"Estas seguro de borrar {dato}?", "Atencion!!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (rs == DialogResult.Yes)
             {
-                f.Borrar($"call p_EliminarCliente ({IDC})");
+                f.Borrar($"call p_EliminarUsuario ({IDU})");
                 MessageBox.Show("Registro eliminado", "Atencion!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-        public void Modificar(TextBox Nombre, TextBox ApellidoP, TextBox ApellidoM, TextBox Email, TextBox Telefono, int IDC)
+        public void Modificar(TextBox Nick, TextBox Clave, ComboBox Rol, TextBox Nombre, TextBox Apellidos, int IDU)
         {
-            MessageBox.Show(f.Modificar($"call p_EditarCliente ({IDC}, '{Nombre.Text}', '{ApellidoP.Text}', '{ApellidoM.Text}', '{Email.Text}', '{Telefono.Text}');"),
+            MessageBox.Show(f.Modificar($"call p_EditarUsuario ('{Nick.Text}', sha1('{Clave.Text}'), '{Rol.Text}', '{Nombre.Text}', '{Apellidos.Text}')"),
                 "Atencion!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         DataGridViewButtonColumn Boton(string t, Color fondo)
@@ -41,20 +41,12 @@ namespace Manejador
             b.DefaultCellStyle.ForeColor = Color.White;
             return b;
         }
-        public void MostrarHistorial(DataGridView tabla, string filtro)
+        public void Mostrar(DataGridView tabla, string filtro)
         {
             tabla.Columns.Clear();
-            tabla.DataSource = f.Mostrar($"select * from Historial_Cliente where nombre like '%{filtro}%'", "usuarios").Tables[0];
+            tabla.DataSource = f.Mostrar($"select * from Usuarios where nombre like '%{filtro}%'", "Usuarios").Tables[0];
             tabla.Columns.Insert(8, Boton("Borrar", Color.Red));
             tabla.Columns.Insert(9, Boton("Modificar", Color.Green));
-            tabla.AutoResizeColumns();
-            tabla.AutoResizeRows();
-        }
-
-        public void MostrarGeneral(DataGridView tabla, string Nombre)
-        {
-            tabla.Columns.Clear();
-            tabla.DataSource = f.Mostrar($"SELECT * from Clientes WHERE NickName = '{Nombre}';", "Historial").Tables[0];
             tabla.AutoResizeColumns();
             tabla.AutoResizeRows();
         }

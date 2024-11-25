@@ -34,6 +34,7 @@
             this.optClientes = new System.Windows.Forms.ToolStripButton();
             this.optReservacion = new System.Windows.Forms.ToolStripButton();
             this.optSalir = new System.Windows.Forms.ToolStripButton();
+            this.optUsuarios = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,10 +46,11 @@
             this.optHabitacion,
             this.optClientes,
             this.optReservacion,
+            this.optUsuarios,
             this.optSalir});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(41, 450);
+            this.toolStrip1.Size = new System.Drawing.Size(41, 366);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -92,13 +94,24 @@
             this.optSalir.Size = new System.Drawing.Size(40, 40);
             this.optSalir.Text = "Salir";
             // 
+            // optUsuarios
+            // 
+            this.optUsuarios.AutoSize = false;
+            this.optUsuarios.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.optUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("optUsuarios.Image")));
+            this.optUsuarios.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.optUsuarios.Name = "optUsuarios";
+            this.optUsuarios.Size = new System.Drawing.Size(40, 40);
+            this.optUsuarios.Text = "toolStripButton1";
+            // 
             // frmMenuPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.toolStrip1);
             this.IsMdiContainer = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmMenuPrincipal";
             this.Text = "frmMenuPrincipal";
             this.toolStrip1.ResumeLayout(false);
@@ -115,5 +128,6 @@
         private System.Windows.Forms.ToolStripButton optClientes;
         private System.Windows.Forms.ToolStripButton optReservacion;
         private System.Windows.Forms.ToolStripButton optSalir;
+        private System.Windows.Forms.ToolStripButton optUsuarios;
     }
 }
