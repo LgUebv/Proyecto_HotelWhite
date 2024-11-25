@@ -33,8 +33,8 @@
             this.optHabitacion = new System.Windows.Forms.ToolStripButton();
             this.optClientes = new System.Windows.Forms.ToolStripButton();
             this.optReservacion = new System.Windows.Forms.ToolStripButton();
-            this.optSalir = new System.Windows.Forms.ToolStripButton();
             this.optUsuarios = new System.Windows.Forms.ToolStripButton();
+            this.optSalir = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,6 +63,7 @@
             this.optHabitacion.Name = "optHabitacion";
             this.optHabitacion.Size = new System.Drawing.Size(40, 40);
             this.optHabitacion.Text = "Habitacion";
+            this.optHabitacion.Click += new System.EventHandler(this.optHabitacion_Click);
             // 
             // optClientes
             // 
@@ -73,6 +74,7 @@
             this.optClientes.Name = "optClientes";
             this.optClientes.Size = new System.Drawing.Size(40, 40);
             this.optClientes.Text = "Clientes";
+            this.optClientes.Click += new System.EventHandler(this.optClientes_Click);
             // 
             // optReservacion
             // 
@@ -82,7 +84,20 @@
             this.optReservacion.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.optReservacion.Name = "optReservacion";
             this.optReservacion.Size = new System.Drawing.Size(40, 40);
-            this.optReservacion.Text = "optReservacion";
+            this.optReservacion.Text = "Reservaciones";
+            this.optReservacion.Click += new System.EventHandler(this.optReservacion_Click);
+            // 
+            // optUsuarios
+            // 
+            this.optUsuarios.AutoSize = false;
+            this.optUsuarios.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.optUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("optUsuarios.Image")));
+            this.optUsuarios.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.optUsuarios.Name = "optUsuarios";
+            this.optUsuarios.Size = new System.Drawing.Size(40, 40);
+            this.optUsuarios.Text = "Usuarios";
+            this.optUsuarios.Visible = false;
+            this.optUsuarios.Click += new System.EventHandler(this.optUsuarios_Click);
             // 
             // optSalir
             // 
@@ -93,16 +108,7 @@
             this.optSalir.Name = "optSalir";
             this.optSalir.Size = new System.Drawing.Size(40, 40);
             this.optSalir.Text = "Salir";
-            // 
-            // optUsuarios
-            // 
-            this.optUsuarios.AutoSize = false;
-            this.optUsuarios.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.optUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("optUsuarios.Image")));
-            this.optUsuarios.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.optUsuarios.Name = "optUsuarios";
-            this.optUsuarios.Size = new System.Drawing.Size(40, 40);
-            this.optUsuarios.Text = "toolStripButton1";
+            this.optSalir.Click += new System.EventHandler(this.optSalir_Click);
             // 
             // frmMenuPrincipal
             // 
@@ -111,7 +117,7 @@
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.toolStrip1);
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmMenuPrincipal";
             this.Text = "frmMenuPrincipal";
             this.toolStrip1.ResumeLayout(false);

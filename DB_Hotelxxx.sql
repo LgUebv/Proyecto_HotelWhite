@@ -245,6 +245,23 @@ begin
     delete from Reservaciones where idReservacion = p_idReservacion;
 end;
 
+--------------------------------- VALIDAR LOGIN ---------------------------------
+DROP procedure if exists p_validar; 
+create procedure p_validar
+(
+	in _user varchar(255),
+	in _pass varchar(255)
+)
+begin 
+
+	DECLARE x INT;
+	SELECT COUNT(*) FROM usuarios WHERE Username = _user AND Password = _pass INTO x;
+	if x > 0 then
+		SELECT 'Correcto' AS rs, (SELECT Rol FROM usuarios WHERE Username = _user) AS Nivel;
+	ELSE
+		SELECT 'Error' AS rs, 0 AS Nivel;
+	END if;
+END;
 
 ------------------------------- REGISTROS ---------------------------------------
 CALL p_AgregarUsuario('pepin', SHA1('1234'), 'Administrador');
@@ -261,6 +278,7 @@ CALL p_AgregarReservacion(2, 2, 5, '2024-12-05'); -- Ana López reservando habit
 CALL p_AgregarReservacion(1, 1, 7);
 CALL p_EditarReservacion(1, 1, 2, 10);
 
+CALL p_validar('pepinilla',sha1('1234'));
 ----------------------------- VISTAS -------------------------------------------
 select * from Usuarios;
 select * from Clientes;

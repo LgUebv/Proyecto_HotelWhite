@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3FA9FF4-EFF0-4F4B-ACC4-A6C61C9EDB3C}|Manejador\\Manejador.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\manejador\\manejadorcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3FA9FF4-EFF0-4F4B-ACC4-A6C61C9EDB3C}|Manejador\\Manejador.csproj|solutionrelative:manejador\\manejadorcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 469,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,16 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ManejadorCliente.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\Manejador\\ManejadorCliente.cs",
-              "RelativeDocumentMoniker": "Manejador\\ManejadorCliente.cs",
-              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\Manejador\\ManejadorCliente.cs",
-              "RelativeToolTip": "Manejador\\ManejadorCliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frmMenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmMenuPrincipal.cs",
+              "RelativeDocumentMoniker": "ProyectoHotel\\frmMenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmMenuPrincipal.cs",
+              "RelativeToolTip": "ProyectoHotel\\frmMenuPrincipal.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAMwBQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T19:48:24.191Z",
+              "WhenOpened": "2024-11-25T21:13:06.03Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMenuPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmMenuPrincipal.cs",
+              "RelativeDocumentMoniker": "ProyectoHotel\\frmMenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmMenuPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoHotel\\frmMenuPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:12:41.795Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Manejador</RootNamespace>
     <AssemblyName>Manejador</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,6 +46,7 @@
   <ItemGroup>
     <Compile Include="ManejadorCliente.cs" />
     <Compile Include="ManejadorHabitaciones.cs" />
+    <Compile Include="ManejadorLogin.cs" />
     <Compile Include="ManejadorReservaciones.cs" />
     <Compile Include="ManejadorUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -58,6 +60,9 @@
       <Project>{ec8ebcf8-086c-40d4-8358-f170910544e5}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
