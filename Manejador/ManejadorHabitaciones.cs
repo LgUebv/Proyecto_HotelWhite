@@ -46,7 +46,7 @@ namespace Manejador
             return b;
         }
 
-        public void MostrarA(DataGridView tabla, string filtro)
+        public void Mostrar(DataGridView tabla, string filtro)
         {
             tabla.Columns.Clear();
             tabla.DataSource = f.Mostrar($"Select * from Habitaciones;", "Habitaciones").Tables[0];

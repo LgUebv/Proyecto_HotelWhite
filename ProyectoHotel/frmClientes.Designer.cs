@@ -38,9 +38,10 @@
             // btnAgregar
             // 
             this.btnAgregar.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(574, 10);
+            this.btnAgregar.Location = new System.Drawing.Point(765, 17);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(42, 28);
+            this.btnAgregar.Size = new System.Drawing.Size(56, 34);
             this.btnAgregar.TabIndex = 11;
             this.btnAgregar.Text = "+";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -49,40 +50,45 @@
             // dtgvClientes
             // 
             this.dtgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvClientes.Location = new System.Drawing.Point(10, 116);
+            this.dtgvClientes.Location = new System.Drawing.Point(13, 143);
+            this.dtgvClientes.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvClientes.Name = "dtgvClientes";
             this.dtgvClientes.RowHeadersWidth = 51;
-            this.dtgvClientes.Size = new System.Drawing.Size(606, 315);
+            this.dtgvClientes.Size = new System.Drawing.Size(808, 318);
             this.dtgvClientes.TabIndex = 10;
+            this.dtgvClientes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvClientes_CellClick);
             // 
             // txtCliente
             // 
-            this.txtCliente.Location = new System.Drawing.Point(123, 10);
+            this.txtCliente.Location = new System.Drawing.Point(164, 12);
+            this.txtCliente.Margin = new System.Windows.Forms.Padding(4);
             this.txtCliente.Multiline = true;
             this.txtCliente.Name = "txtCliente";
-            this.txtCliente.Size = new System.Drawing.Size(445, 29);
+            this.txtCliente.Size = new System.Drawing.Size(592, 35);
             this.txtCliente.TabIndex = 9;
+            this.txtCliente.TextChanged += new System.EventHandler(this.txtCliente_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(21, 14);
+            this.label1.Location = new System.Drawing.Point(28, 17);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 25);
+            this.label1.Size = new System.Drawing.Size(110, 31);
             this.label1.TabIndex = 8;
             this.label1.Text = "CLIENTE";
             // 
             // frmClientes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 456);
+            this.ClientSize = new System.Drawing.Size(832, 561);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dtgvClientes);
             this.Controls.Add(this.txtCliente);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmClientes";
             this.Text = "frmClientes";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvClientes)).EndInit();

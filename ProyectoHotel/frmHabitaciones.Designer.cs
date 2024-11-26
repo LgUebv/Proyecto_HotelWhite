@@ -38,9 +38,10 @@
             // btnAgregar
             // 
             this.btnAgregar.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(472, 7);
+            this.btnAgregar.Location = new System.Drawing.Point(629, 9);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(42, 28);
+            this.btnAgregar.Size = new System.Drawing.Size(56, 34);
             this.btnAgregar.TabIndex = 7;
             this.btnAgregar.Text = "+";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -49,39 +50,44 @@
             // dtgvHabitaciones
             // 
             this.dtgvHabitaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvHabitaciones.Location = new System.Drawing.Point(10, 73);
+            this.dtgvHabitaciones.Location = new System.Drawing.Point(13, 90);
+            this.dtgvHabitaciones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtgvHabitaciones.Name = "dtgvHabitaciones";
             this.dtgvHabitaciones.RowHeadersWidth = 51;
-            this.dtgvHabitaciones.Size = new System.Drawing.Size(516, 315);
+            this.dtgvHabitaciones.Size = new System.Drawing.Size(688, 388);
             this.dtgvHabitaciones.TabIndex = 6;
+            this.dtgvHabitaciones.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvHabitaciones_CellClick);
             // 
             // txtHabitacion
             // 
-            this.txtHabitacion.Location = new System.Drawing.Point(218, 14);
+            this.txtHabitacion.Location = new System.Drawing.Point(291, 17);
+            this.txtHabitacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtHabitacion.Name = "txtHabitacion";
-            this.txtHabitacion.Size = new System.Drawing.Size(220, 20);
+            this.txtHabitacion.Size = new System.Drawing.Size(292, 22);
             this.txtHabitacion.TabIndex = 5;
+            this.txtHabitacion.TextChanged += new System.EventHandler(this.txtHabitacion_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(21, 14);
+            this.label1.Location = new System.Drawing.Point(28, 17);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 25);
+            this.label1.Size = new System.Drawing.Size(248, 31);
             this.label1.TabIndex = 4;
             this.label1.Text = "TIPO DE HABITACIÓN";
             // 
             // frmHabitaciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(542, 396);
+            this.ClientSize = new System.Drawing.Size(723, 487);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dtgvHabitaciones);
             this.Controls.Add(this.txtHabitacion);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmHabitaciones";
             this.Text = "frmHabitaciones";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvHabitaciones)).EndInit();
