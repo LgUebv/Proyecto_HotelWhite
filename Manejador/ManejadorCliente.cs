@@ -54,7 +54,7 @@ namespace Manejador
         public void MostrarGeneral(DataGridView tabla, string Nombre)
         {
             tabla.Columns.Clear();
-            tabla.DataSource = f.Mostrar($"SELECT * from Clientes WHERE NickName = '{Nombre}';", "Historial").Tables[0];
+            tabla.DataSource = f.Mostrar($"SELECT * from Clientes WHERE nombre = '{Nombre}';", "clientes").Tables[0];
             tabla.AutoResizeColumns();
             tabla.AutoResizeRows();
         }

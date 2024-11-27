@@ -21,5 +21,10 @@ namespace ProyectoHotel
         {
 
         }
+
+        private void frmDatosReservaciones_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

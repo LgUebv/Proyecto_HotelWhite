@@ -4,3 +4,9 @@ C:\Users\josem\source\repos\ProyectoHotel\Entidades\obj\Debug\Entidades.csproj.A
 C:\Users\josem\source\repos\ProyectoHotel\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\josem\source\repos\ProyectoHotel\Entidades\obj\Debug\Entidades.dll
 C:\Users\josem\source\repos\ProyectoHotel\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Julián\Downloads\Proyecto_HotelWhite\Entidades\bin\Debug\Entidades.dll
+C:\Users\Julián\Downloads\Proyecto_HotelWhite\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Julián\Downloads\Proyecto_HotelWhite\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Julián\Downloads\Proyecto_HotelWhite\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Julián\Downloads\Proyecto_HotelWhite\Entidades\obj\Debug\Entidades.dll
+C:\Users\Julián\Downloads\Proyecto_HotelWhite\Entidades\obj\Debug\Entidades.pdb

@@ -18,6 +18,12 @@ namespace ProyectoHotel
         public static int IDU = 0;
         public static string Username, Password, Rol, Nombre, Apellidos = "";
         int fila = 0, columna = 0;
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         public FrmUsuarios()
         {
             InitializeComponent();
