@@ -41,12 +41,20 @@ namespace Manejador
             b.DefaultCellStyle.ForeColor = Color.White;
             return b;
         }
+        public void MostrarAdmin(DataGridView tabla, string filtro)
+        {
+            tabla.Columns.Clear();
+            tabla.DataSource = f.Mostrar($"select * from Usuarios where Username like '%{filtro}%'", "Usuarios").Tables[0];
+            tabla.Columns.Insert(8, Boton("Borrar", Color.Red));
+            tabla.Columns.Insert(9, Boton("Modificar", Color.Green));
+            tabla.AutoResizeColumns();
+            tabla.AutoResizeRows();
+        }
+
         public void Mostrar(DataGridView tabla, string filtro)
         {
             tabla.Columns.Clear();
-            tabla.DataSource = f.Mostrar($"select * from Usuarios where nombre like '%{filtro}%'", "Usuarios").Tables[0];
-            tabla.Columns.Insert(8, Boton("Borrar", Color.Red));
-            tabla.Columns.Insert(9, Boton("Modificar", Color.Green));
+            tabla.DataSource = f.Mostrar($"select * from Usuarios where Username like '%{filtro}%'", "Usuarios").Tables[0];
             tabla.AutoResizeColumns();
             tabla.AutoResizeRows();
         }

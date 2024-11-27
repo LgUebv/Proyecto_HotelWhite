@@ -67,7 +67,7 @@ namespace ProyectoHotel
         private void txtHabitacion_TextChanged(object sender, EventArgs e)
         {
             dtgvHabitaciones.Visible = true;
-            mh.Mostrar(dtgvHabitaciones, txtHabitacion.Text);
+            mh.MostrarAdministrador(dtgvHabitaciones, txtHabitacion.Text);
         }
     }
 }

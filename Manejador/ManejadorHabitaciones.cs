@@ -49,9 +49,17 @@ namespace Manejador
         public void Mostrar(DataGridView tabla, string filtro)
         {
             tabla.Columns.Clear();
-            tabla.DataSource = f.Mostrar($"Select * from Habitaciones;", "Habitaciones").Tables[0];
-            tabla.Columns.Insert(5, Boton("Borrar", Color.Red));
-            tabla.Columns.Insert(6, Boton("Modificar", Color.Green));
+            tabla.DataSource = f.Mostrar($"Select * from habitaciones where tipo like = '%{filtro}%';", "habitaciones").Tables[0];
+            tabla.AutoResizeColumns();
+            tabla.AutoResizeRows();
+        }
+
+        public void MostrarAdministrador(DataGridView tabla, string filtro)
+        {
+            tabla.Columns.Clear();
+            tabla.DataSource = f.Mostrar($"SELECT * from habitaciones WHERE tipo like '%{filtro}%'", "habitaciones").Tables[0];
+            tabla.Columns.Insert(6, Boton("Borrar", Color.Red));
+            tabla.Columns.Insert(7, Boton("Modificar", Color.Green));
             tabla.AutoResizeColumns();
             tabla.AutoResizeRows();
         }

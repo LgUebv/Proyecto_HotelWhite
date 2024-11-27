@@ -20,6 +20,7 @@ create table Clientes(
 alter table Clientes add column Email varchar(255);
 alter table Clientes add column Telefono varchar(10);
 describe Clientes;
+select * from clientes;
 
 
 create table Habitaciones(
@@ -31,6 +32,9 @@ create table Habitaciones(
     Descripcion varchar(255)
 );
 describe Habitaciones;
+select * from clientes;
+select * from usuarios;
+select * from habitaciones;
 
 create table reservaciones(
     idReservacion int primary key auto_increment,
@@ -100,11 +104,13 @@ drop procedure if exists p_AgregarCliente;
 create procedure p_AgregarCliente(
     in p_Nombre varchar(255),
     in p_ApellidoP varchar(255),
-    in p_ApellidoM varchar(255)
+    in p_ApellidoM varchar(255), 
+    in p_Email varchar(255),
+    in p_Telefono varchar(10)
 )
 begin
-    insert into Clientes (Nombre, ApellidoP, ApellidoM)
-    values (p_Nombre, p_ApellidoP, p_ApellidoM);
+    insert into Clientes (Nombre, ApellidoP, ApellidoM, Email, Telefono)
+    values (p_Nombre, p_ApellidoP, p_ApellidoM, Email, Telefono);
 end;
 
 drop procedure if exists p_EditarCliente;
@@ -112,13 +118,17 @@ create procedure p_EditarCliente(
     in p_idCliente int,
     in p_Nombre varchar(255),
     in p_ApellidoP varchar(255),
-    in p_ApellidoM varchar(255)
+    in p_ApellidoM varchar(255),
+    in p_Email varchar(255),
+    in p_Telefono varchar(10)
 )
 begin
     update Clientes
     set Nombre = p_Nombre,
         ApellidoP = p_ApellidoP,
-        ApellidoM = p_ApellidoM
+        ApellidoM = p_ApellidoM,
+        Email = p_Email,
+        Telefono = p_Telefono
     where idCliente = p_idCliente;
 end;
 

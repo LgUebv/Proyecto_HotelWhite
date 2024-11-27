@@ -38,18 +38,7 @@ namespace ProyectoHotel
 
         private void txtCliente_TextChanged(object sender, EventArgs e)
         {
-            dtgvClientes.Visible = true;
-            mc.MostrarGeneral(dtgvClientes, txtCliente.Text);
-        }
-
-        private void btnEditar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnBorrar_Click(object sender, EventArgs e)
-        {
-            
+            mc.MostrarAdministrador(dtgvClientes, txtCliente.Text);
         }
 
         private void dtgvClientes_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -61,7 +50,7 @@ namespace ProyectoHotel
                     {
                         IDC = int.Parse(dtgvClientes.Rows[fila].Cells[0].Value.ToString());
                         mc.Borrar(IDC, dtgvClientes.Rows[fila].Cells[1].Value.ToString());
-                        dtgvClientes.Visible = false;
+                        dtgvClientes.Visible = true;
                     }
                     break;
                 case 7:
@@ -74,19 +63,11 @@ namespace ProyectoHotel
                         Telefono = dtgvClientes.Rows[fila].Cells[5].Value.ToString();
                         frmDatosCliente cliente = new frmDatosCliente();
                         cliente.ShowDialog();
-                        dtgvClientes.Visible = false;
+                        dtgvClientes.Visible = true;
                     }
                     break;
             }
+            
         }
-
-        //private void ConfigurarMenu()
-        //{
-        //    if (nivelUsuario == "Administrador")
-        //    {
-        //        btnEditar.Enabled = true;
-        //        btnBorrar.Enabled = true;
-        //    }
-        //}  
     }
 }
