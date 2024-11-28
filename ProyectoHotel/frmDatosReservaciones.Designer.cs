@@ -72,6 +72,7 @@
             this.btnAgregar.TabIndex = 7;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // label2
             // 
@@ -102,6 +103,7 @@
             this.txtCliente.Name = "txtCliente";
             this.txtCliente.Size = new System.Drawing.Size(107, 34);
             this.txtCliente.TabIndex = 15;
+            this.txtCliente.Click += new System.EventHandler(this.txtCliente_Click);
             // 
             // txtHabitacion
             // 
@@ -112,6 +114,7 @@
             this.txtHabitacion.Name = "txtHabitacion";
             this.txtHabitacion.Size = new System.Drawing.Size(107, 34);
             this.txtHabitacion.TabIndex = 16;
+            this.txtHabitacion.Click += new System.EventHandler(this.txtHabitacion_Click);
             // 
             // btnCancelar
             // 
@@ -123,6 +126,7 @@
             this.btnCancelar.TabIndex = 17;
             this.btnCancelar.Text = "CANCELAR";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // label4
             // 

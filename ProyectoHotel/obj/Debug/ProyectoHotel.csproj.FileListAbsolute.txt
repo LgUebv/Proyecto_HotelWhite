@@ -106,3 +106,5 @@ C:\Users\Julián\Downloads\Proyecto_HotelWhite\ProyectoHotel\obj\Debug\ProyectoH
 C:\Users\Julián\Downloads\Proyecto_HotelWhite\ProyectoHotel\obj\Debug\Proyecto.93933CAE.Up2Date
 C:\Users\Julián\Downloads\Proyecto_HotelWhite\ProyectoHotel\obj\Debug\ProyectoHotel.exe
 C:\Users\Julián\Downloads\Proyecto_HotelWhite\ProyectoHotel\obj\Debug\ProyectoHotel.pdb
+C:\Users\Julián\Downloads\Proyecto_HotelWhite\ProyectoHotel\obj\Debug\ProyectoHotel.frmClientes2.resources
+C:\Users\Julián\Downloads\Proyecto_HotelWhite\ProyectoHotel\obj\Debug\ProyectoHotel.frmHabitacion2.resources

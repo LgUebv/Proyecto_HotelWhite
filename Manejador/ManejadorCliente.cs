@@ -54,7 +54,8 @@ namespace Manejador
         public void MostrarGeneral(DataGridView tabla, string filtro)
         {
             tabla.Columns.Clear();
-            tabla.DataSource = f.Mostrar($"select * from clientes where nombre like = '%{filtro}%';", "clientes").Tables[0];
+            tabla.DataSource = f.Mostrar($"select * from clientes where nombre like '%{filtro}%'", "clientes").Tables[0];
+            tabla.Columns.Insert(6, Boton("Seleccionar", Color.Purple));
             tabla.AutoResizeColumns();
             tabla.AutoResizeRows();
         }

@@ -19,6 +19,31 @@ namespace ProyectoHotel
         public static string Nombre, ApellidoP, ApellidoM, Email, Telefono = "";
         int fila = 0, columna = 0;
 
+        private void dtgvClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
         ManejadorCliente mc;
         public frmClientes(string nivelUsuario)
         {
@@ -39,6 +64,7 @@ namespace ProyectoHotel
         private void txtCliente_TextChanged(object sender, EventArgs e)
         {
             mc.MostrarAdministrador(dtgvClientes, txtCliente.Text);
+            dtgvClientes.Visible=true;
         }
 
         private void dtgvClientes_CellClick(object sender, DataGridViewCellEventArgs e)

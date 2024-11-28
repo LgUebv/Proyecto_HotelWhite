@@ -49,7 +49,8 @@ namespace Manejador
         public void Mostrar(DataGridView tabla, string filtro)
         {
             tabla.Columns.Clear();
-            tabla.DataSource = f.Mostrar($"Select * from habitaciones where tipo like = '%{filtro}%';", "habitaciones").Tables[0];
+            tabla.DataSource = f.Mostrar($"Select * from habitaciones where tipo like '%{filtro}%'", "habitaciones").Tables[0];
+            tabla.Columns.Insert(6, Boton("Seleccionar", Color.Purple));
             tabla.AutoResizeColumns();
             tabla.AutoResizeRows();
         }
