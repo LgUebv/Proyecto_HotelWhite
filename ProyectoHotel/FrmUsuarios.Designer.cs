@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnSalir = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,11 +58,11 @@
             this.dtgvUsuarios.AllowUserToDeleteRows = false;
             this.dtgvUsuarios.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dtgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvUsuarios.Location = new System.Drawing.Point(13, 82);
+            this.dtgvUsuarios.Location = new System.Drawing.Point(13, 102);
             this.dtgvUsuarios.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvUsuarios.Name = "dtgvUsuarios";
             this.dtgvUsuarios.RowHeadersWidth = 51;
-            this.dtgvUsuarios.Size = new System.Drawing.Size(702, 321);
+            this.dtgvUsuarios.Size = new System.Drawing.Size(702, 301);
             this.dtgvUsuarios.TabIndex = 10;
             this.dtgvUsuarios.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvUsuarios_CellClick);
             // 
@@ -108,12 +109,23 @@
             this.panel1.Size = new System.Drawing.Size(729, 31);
             this.panel1.TabIndex = 13;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(288, 77);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(214, 16);
+            this.label2.TabIndex = 78;
+            this.label2.Text = "Ingrese el Username del empleado\r\n";
+            // 
             // FrmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(728, 415);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dtgvUsuarios);
@@ -124,6 +136,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmUsuarios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmUsuarios";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvUsuarios)).EndInit();
             this.ResumeLayout(false);
@@ -139,5 +152,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label btnSalir;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label2;
     }
 }

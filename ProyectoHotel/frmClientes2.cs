@@ -43,7 +43,7 @@ namespace ProyectoHotel
                 case 6:
                     {
                         IDC = int.Parse(dtgvClientes.Rows[fila].Cells[0].Value.ToString());
-                        dtgvClientes.Visible = true;
+                        this.Close();
                     }
                     break;
             }

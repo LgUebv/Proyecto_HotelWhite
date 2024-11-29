@@ -51,7 +51,7 @@
             this.optSalir});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(56, 450);
+            this.toolStrip1.Size = new System.Drawing.Size(98, 744);
             this.toolStrip1.TabIndex = 1;
             // 
             // optHabitacion
@@ -61,7 +61,7 @@
             this.optHabitacion.Image = ((System.Drawing.Image)(resources.GetObject("optHabitacion.Image")));
             this.optHabitacion.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.optHabitacion.Name = "optHabitacion";
-            this.optHabitacion.Size = new System.Drawing.Size(50, 50);
+            this.optHabitacion.Size = new System.Drawing.Size(70, 70);
             this.optHabitacion.Text = "Habitaciones";
             this.optHabitacion.Click += new System.EventHandler(this.optHabitacion_Click);
             // 
@@ -72,7 +72,7 @@
             this.optClientes.Image = ((System.Drawing.Image)(resources.GetObject("optClientes.Image")));
             this.optClientes.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.optClientes.Name = "optClientes";
-            this.optClientes.Size = new System.Drawing.Size(50, 50);
+            this.optClientes.Size = new System.Drawing.Size(70, 70);
             this.optClientes.Text = "Clientes";
             this.optClientes.Click += new System.EventHandler(this.optClientes_Click);
             // 
@@ -83,7 +83,7 @@
             this.optReservacion.Image = ((System.Drawing.Image)(resources.GetObject("optReservacion.Image")));
             this.optReservacion.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.optReservacion.Name = "optReservacion";
-            this.optReservacion.Size = new System.Drawing.Size(50, 50);
+            this.optReservacion.Size = new System.Drawing.Size(70, 70);
             this.optReservacion.Text = "Reservaciones";
             this.optReservacion.Click += new System.EventHandler(this.optReservacion_Click);
             // 
@@ -94,7 +94,7 @@
             this.optUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("optUsuarios.Image")));
             this.optUsuarios.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.optUsuarios.Name = "optUsuarios";
-            this.optUsuarios.Size = new System.Drawing.Size(50, 50);
+            this.optUsuarios.Size = new System.Drawing.Size(70, 70);
             this.optUsuarios.Text = "Usuarios";
             this.optUsuarios.Visible = false;
             this.optUsuarios.Click += new System.EventHandler(this.optUsuarios_Click);
@@ -106,22 +106,22 @@
             this.optSalir.Image = ((System.Drawing.Image)(resources.GetObject("optSalir.Image")));
             this.optSalir.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.optSalir.Name = "optSalir";
-            this.optSalir.Size = new System.Drawing.Size(50, 50);
+            this.optSalir.Size = new System.Drawing.Size(70, 70);
             this.optSalir.Text = "Salir";
             this.optSalir.Click += new System.EventHandler(this.optSalir_Click);
             // 
             // frmMenuPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1284, 744);
             this.Controls.Add(this.toolStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmMenuPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMenuPrincipal";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);

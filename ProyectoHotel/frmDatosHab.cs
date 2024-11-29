@@ -37,11 +37,11 @@ namespace ProyectoHotel
         {
             if (frmHabitaciones.IDH > 0)
             {
-                mh.Modificar(cmbTipo, txtCosto, txtCapacidad, cmbEstado, txtDescripcion, frmHabitaciones.IDH);
+                mh.Modificar(cmbTipo, txtCapacidad, txtCosto, cmbEstado, txtDescripcion, frmHabitaciones.IDH);
             }
             else
             {
-                mh.Guardar(cmbTipo, txtCosto, txtCapacidad, cmbEstado, txtDescripcion);
+                mh.Guardar(cmbTipo, txtCapacidad, txtCosto, cmbEstado, txtDescripcion);
             }
             Close();
         }

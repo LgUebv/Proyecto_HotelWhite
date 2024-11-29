@@ -21,7 +21,7 @@ namespace Manejador
 
         public void Borrar(int IDH, string dato)
         {
-            DialogResult rs = MessageBox.Show($"Estas seguro de borrar {dato}?", "Atencion!!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult rs = MessageBox.Show($"Estas seguro de borrar la habitacion numero {dato}?", "Atencion!!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (rs == DialogResult.Yes)
             {
                 f.Borrar($"call p_EliminarHabitacion({IDH})");
@@ -31,7 +31,7 @@ namespace Manejador
 
         public void Modificar(ComboBox Tipo, TextBox Capacidad, TextBox Costo, ComboBox Estado, TextBox Descripcion, int IDH)
         {
-            MessageBox.Show(f.Modificar($"CALL p_AgregarHabitacion({IDH}, '{Tipo.Text}', {Capacidad.Text}, {Costo.Text}, '{Estado.Text}', '{Descripcion.Text}');"),
+            MessageBox.Show(f.Modificar($"CALL p_EditarHabitacion({IDH}, '{Tipo.Text}', {Capacidad.Text}, {Costo.Text}, '{Estado.Text}', '{Descripcion.Text}');"),
                 "Atencion!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 

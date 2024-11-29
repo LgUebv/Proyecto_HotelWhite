@@ -53,7 +53,7 @@
             // 
             // txtHabitacion
             // 
-            this.txtHabitacion.BackColor = System.Drawing.SystemColors.Control;
+            this.txtHabitacion.BackColor = System.Drawing.SystemColors.Window;
             this.txtHabitacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtHabitacion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHabitacion.Location = new System.Drawing.Point(262, 53);
@@ -112,6 +112,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmHabitacion2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmHabitacion2";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvHabitaciones)).EndInit();
             this.panel1.ResumeLayout(false);

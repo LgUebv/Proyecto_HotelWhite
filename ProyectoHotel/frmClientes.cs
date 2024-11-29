@@ -55,11 +55,19 @@ namespace ProyectoHotel
                 case 6:
                     {
                         IDC = int.Parse(dtgvClientes.Rows[fila].Cells[0].Value.ToString());
-                        mc.Borrar(IDC, dtgvClientes.Rows[fila].Cells[1].Value.ToString());
+                        frmHistorial historial = new frmHistorial();
+                        historial.ShowDialog();
                         dtgvClientes.Visible = true;
                     }
                     break;
                 case 7:
+                    {
+                        IDC = int.Parse(dtgvClientes.Rows[fila].Cells[0].Value.ToString());
+                        mc.Borrar(IDC, dtgvClientes.Rows[fila].Cells[1].Value.ToString());
+                        dtgvClientes.Visible = true;
+                    }
+                    break;
+                case 8:
                     {
                         IDC = int.Parse(dtgvClientes.Rows[fila].Cells[0].Value.ToString());
                         Nombre = dtgvClientes.Rows[fila].Cells[1].Value.ToString();

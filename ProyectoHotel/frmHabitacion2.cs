@@ -45,7 +45,6 @@ namespace ProyectoHotel
                     {
                         IDH = int.Parse(dtgvHabitaciones.Rows[fila].Cells[0].Value.ToString());
                         this.Close();
-                        dtgvHabitaciones.Visible = false;
                     }
                     break;
             }

@@ -110,6 +110,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmClientes2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmClientes2";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvClientes)).EndInit();
             this.panel1.ResumeLayout(false);

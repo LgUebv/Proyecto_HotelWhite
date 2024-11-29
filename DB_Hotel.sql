@@ -219,34 +219,6 @@ BEGIN
 END;
 
 
-drop procedure if exists p_EditarReservacion;
-CREATE PROCEDURE p_EditarReservacion(
-    IN p_idReservacion INT,
-    IN p_FK_IdCliente INT,
-    IN p_FK_IdHabitacion INT,
-    IN p_Dias INT
-)
-BEGIN
-    -- Verificar existencia del cliente, habitación y reservación
-    IF EXISTS (SELECT 1 FROM Reservaciones WHERE idReservacion = p_idReservacion)
-    AND EXISTS (SELECT 1 FROM Clientes WHERE idCliente = p_FK_IdCliente)
-    AND EXISTS (SELECT 1 FROM Habitaciones WHERE idHabitacion = p_FK_IdHabitacion) THEN
-        
-        -- Actualizar la reservación y recalcular la FechaTermino
-        UPDATE Reservaciones
-        SET FK_IdCliente = p_FK_IdCliente,
-            FK_IdHabitacion = p_FK_IdHabitacion,
-            Dias = p_Dias,
-            FechaTermino = DATE_ADD(FechaReservacion, INTERVAL p_Dias DAY)
-        WHERE idReservacion = p_idReservacion;
-        
-    ELSE
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'El cliente, habitación o reservación no existen.';
-    END IF;
-END;
-
-
 drop procedure if exists p_EliminarReservacion;
 create procedure p_EliminarReservacion(
     in p_idReservacion int
@@ -295,8 +267,10 @@ select * from Clientes;
 select * from Habitaciones;
 select * from Reservaciones;
 
+drop view Historial_Cliente;
 create view Historial_Cliente as
-select c.Nombre as Nombre_Cliente, 
+select  c.idCliente as ID,
+        c.Nombre as Nombre_Cliente, 
         c.ApellidoP as Apellido_Pat, 
         c.ApellidoM as Apellido_Mat, 
         h.idHabitacion as Habitacion, 
@@ -304,15 +278,18 @@ select c.Nombre as Nombre_Cliente,
         r.dias as dias,
         r.FechaReservacion as Fecha_De_Reservacion,
         r.FechaTermino as Fecha_De_Termino
-    from Clientes as c 
-    Left join Reservaciones as r on c.idCliente = r.FK_IdCliente
+    from Reservaciones as r 
+    Left join Clientes as c on c.idCliente = r.FK_IdCliente
     Left join Habitaciones as h on r.FK_IdHabitacion = h.idHabitacion;
 
-select * from Historial_Cliente where Nombre_Cliente = "Juan";
+select * from Historial_Cliente where ID = 2;
+select * from Historial_Cliente where ID = 1;
+select * from Clientes;
 
-
+drop view Vista_Reservaciones;
 CREATE VIEW Vista_Reservaciones AS
 SELECT 
+    r.idReservacion AS ID,
     c.Nombre AS Nombre_Cliente,
     c.ApellidoP AS Apellido_Paterno,
     c.ApellidoM AS Apellido_Materno,
@@ -328,5 +305,6 @@ JOIN
 JOIN 
     Habitaciones h ON r.FK_IdHabitacion = h.idHabitacion;
 
-select * from Vista_Reservaciones where Nombre_Cliente = "Juan";
+select * from Vista_Reservaciones where Nombre_Cliente = "Ana";
+select * from habitaciones;
 

@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnSalir = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvReservaciones)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -58,17 +59,17 @@
             this.dtgvReservaciones.AllowUserToDeleteRows = false;
             this.dtgvReservaciones.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dtgvReservaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvReservaciones.Location = new System.Drawing.Point(14, 85);
+            this.dtgvReservaciones.Location = new System.Drawing.Point(14, 114);
             this.dtgvReservaciones.Margin = new System.Windows.Forms.Padding(5);
             this.dtgvReservaciones.Name = "dtgvReservaciones";
             this.dtgvReservaciones.RowHeadersWidth = 51;
-            this.dtgvReservaciones.Size = new System.Drawing.Size(702, 321);
+            this.dtgvReservaciones.Size = new System.Drawing.Size(702, 292);
             this.dtgvReservaciones.TabIndex = 14;
             this.dtgvReservaciones.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvReservaciones_CellClick);
             // 
             // txtReservaciones
             // 
-            this.txtReservaciones.BackColor = System.Drawing.SystemColors.Control;
+            this.txtReservaciones.BackColor = System.Drawing.SystemColors.Window;
             this.txtReservaciones.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtReservaciones.Location = new System.Drawing.Point(211, 50);
             this.txtReservaciones.Margin = new System.Windows.Forms.Padding(5);
@@ -112,12 +113,23 @@
             this.panel1.Size = new System.Drawing.Size(911, 33);
             this.panel1.TabIndex = 76;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(359, 82);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(179, 16);
+            this.label2.TabIndex = 77;
+            this.label2.Text = "Ingrese el nombre del cliente";
+            // 
             // frmReservaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(728, 420);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dtgvReservaciones);
@@ -127,6 +139,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmReservaciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmReservaciones";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvReservaciones)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -144,5 +157,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label btnSalir;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label2;
     }
 }

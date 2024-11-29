@@ -48,6 +48,7 @@ namespace ProyectoHotel
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             mr.Guardar(txtCliente, txtHabitacion, txtDias);
+            this.Close();
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)

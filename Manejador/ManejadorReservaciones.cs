@@ -19,17 +19,12 @@ namespace Manejador
         }
         public void Borrar(int IDR, string dato)
         {
-            DialogResult rs = MessageBox.Show($"Estas seguro de borrar {dato}?", "Atencion!!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult rs = MessageBox.Show($"Estas seguro de borrar la reservacion numero {dato}?", "Atencion!!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (rs == DialogResult.Yes)
             {
                 f.Borrar($"call p_EliminarReservacion ({IDR})");
                 MessageBox.Show("Registro eliminado", "Atencion!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-        }
-        public void Modificar(TextBox IDCliente, TextBox IDHabitacion, TextBox Dias, int IDR)
-        {
-            MessageBox.Show(f.Modificar($"call p_EditarReservacion ({IDR}, {IDCliente.Text}, {IDHabitacion.Text}, {Dias.Text});"),
-                "Atencion!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         DataGridViewButtonColumn Boton(string t, Color fondo)
         {
@@ -45,8 +40,7 @@ namespace Manejador
         {
             tabla.Columns.Clear();
             tabla.DataSource = f.Mostrar($"select * from Vista_Reservaciones where Nombre_Cliente like '%{filtro}%'", "reservaciones").Tables[0];
-            tabla.Columns.Insert(8, Boton("Borrar", Color.Red));
-            tabla.Columns.Insert(9, Boton("Modificar", Color.Green));
+            tabla.Columns.Insert(9, Boton("Borrar", Color.Red));
             tabla.AutoResizeColumns();
             tabla.AutoResizeRows();
         }

@@ -46,23 +46,10 @@ namespace ProyectoHotel
             fila = e.RowIndex; columna = e.ColumnIndex;
             switch (columna)
             {
-                case 6:
+                case 9:
                     {
                         IDR = int.Parse(dtgvReservaciones.Rows[fila].Cells[0].Value.ToString());
-                        mr.Borrar(IDR, dtgvReservaciones.Rows[fila].Cells[1].Value.ToString());
-                        dtgvReservaciones.Visible = false;
-                    }
-                    break;
-                case 7:
-                    {
-                        IDR = int.Parse(dtgvReservaciones.Rows[fila].Cells[0].Value.ToString());
-                        IDC = int.Parse(dtgvReservaciones.Rows[fila].Cells[1].Value.ToString());
-                        IDH = int.Parse(dtgvReservaciones.Rows[fila].Cells[2].Value.ToString());
-                        Dias = int.Parse(dtgvReservaciones.Rows[fila].Cells[3].Value.ToString());
-                        FechaInicio = dtgvReservaciones.Rows[fila].Cells[4].Value.ToString();
-                        FechaFin = dtgvReservaciones.Rows[fila].Cells[5].Value.ToString();
-                        frmDatosReservaciones res = new frmDatosReservaciones();
-                        res.ShowDialog();
+                        mr.Borrar(IDR, dtgvReservaciones.Rows[fila].Cells[0].Value.ToString());
                         dtgvReservaciones.Visible = false;
                     }
                     break;

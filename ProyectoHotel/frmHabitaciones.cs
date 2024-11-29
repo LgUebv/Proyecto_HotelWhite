@@ -49,7 +49,7 @@ namespace ProyectoHotel
                 case 6:
                     {
                         IDH = int.Parse(dtgvHabitaciones.Rows[fila].Cells[0].Value.ToString());
-                        mh.Borrar(IDH, dtgvHabitaciones.Rows[fila].Cells[1].Value.ToString());
+                        mh.Borrar(IDH, dtgvHabitaciones.Rows[fila].Cells[0].Value.ToString());
                         dtgvHabitaciones.Visible = false;
                     }
                     break;
@@ -57,12 +57,12 @@ namespace ProyectoHotel
                     {
                         IDH = int.Parse(dtgvHabitaciones.Rows[fila].Cells[0].Value.ToString());
                         Tipo = dtgvHabitaciones.Rows[fila].Cells[1].Value.ToString();
-                        Costo = dtgvHabitaciones.Rows[fila].Cells[2].Value.ToString();
-                        Capacidad = dtgvHabitaciones.Rows[fila].Cells[3].Value.ToString();
+                        Capacidad = dtgvHabitaciones.Rows[fila].Cells[2].Value.ToString();
+                        Costo = dtgvHabitaciones.Rows[fila].Cells[3].Value.ToString();
                         Estado = dtgvHabitaciones.Rows[fila].Cells[4].Value.ToString();
                         Descripcion = dtgvHabitaciones.Rows[fila].Cells[5].Value.ToString();
-                        frmDatosCliente cliente = new frmDatosCliente();
-                        cliente.ShowDialog();
+                        frmDatosHab Hab = new frmDatosHab();
+                        Hab.ShowDialog();
                         dtgvHabitaciones.Visible = false;
                     }
                     break;

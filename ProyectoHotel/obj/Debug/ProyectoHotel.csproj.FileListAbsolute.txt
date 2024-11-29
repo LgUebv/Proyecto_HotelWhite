@@ -110,3 +110,4 @@ C:\Users\Julián\Downloads\Proyecto_HotelWhite\ProyectoHotel\obj\Debug\ProyectoH
 C:\Users\Julián\Downloads\Proyecto_HotelWhite\ProyectoHotel\obj\Debug\ProyectoHotel.frmHabitacion2.resources
 C:\Users\josem\source\repos\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.frmClientes2.resources
 C:\Users\josem\source\repos\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.frmHabitacion2.resources
+C:\Users\josem\source\repos\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.frmHistorial.resources

@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnSalir = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvClientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,11 +59,11 @@
             this.dtgvClientes.AllowUserToDeleteRows = false;
             this.dtgvClientes.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dtgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvClientes.Location = new System.Drawing.Point(13, 82);
+            this.dtgvClientes.Location = new System.Drawing.Point(13, 103);
             this.dtgvClientes.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvClientes.Name = "dtgvClientes";
             this.dtgvClientes.RowHeadersWidth = 51;
-            this.dtgvClientes.Size = new System.Drawing.Size(691, 321);
+            this.dtgvClientes.Size = new System.Drawing.Size(691, 300);
             this.dtgvClientes.TabIndex = 10;
             this.dtgvClientes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvClientes_CellClick);
             // 
@@ -109,12 +110,23 @@
             this.panel1.Size = new System.Drawing.Size(729, 31);
             this.panel1.TabIndex = 15;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(297, 76);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(179, 16);
+            this.label2.TabIndex = 78;
+            this.label2.Text = "Ingrese el nombre del cliente";
+            // 
             // frmClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(716, 414);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnAgregar);
@@ -125,6 +137,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmClientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmClientes";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvClientes)).EndInit();
             this.ResumeLayout(false);
@@ -140,5 +153,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label btnSalir;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label2;
     }
 }

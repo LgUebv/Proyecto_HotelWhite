@@ -41,12 +41,11 @@ namespace Manejador
             b.DefaultCellStyle.ForeColor = Color.White;
             return b;
         }
-        public void MostrarHistorial(DataGridView tabla, string filtro)
+        public void MostrarHistorial(DataGridView tabla, int filtro)
         {
             tabla.Columns.Clear();
-            tabla.DataSource = f.Mostrar($"select * from Historial_Cliente where Nombre like '%{filtro}%'", "clientes").Tables[0];
-            tabla.Columns.Insert(8, Boton("Borrar", Color.Red));
-            tabla.Columns.Insert(9, Boton("Modificar", Color.Green));
+            MessageBox.Show($"select * from Historial_Cliente where ID = '{filtro}'", "Reservaciones", MessageBoxButtons.OK);
+            tabla.DataSource = f.Mostrar($"select * from Historial_Cliente where ID = '{filtro}'", "Reservaciones").Tables[0];
             tabla.AutoResizeColumns();
             tabla.AutoResizeRows();
         }
@@ -64,8 +63,9 @@ namespace Manejador
         {
             tabla.Columns.Clear();
             tabla.DataSource = f.Mostrar($"select * from clientes where nombre like '%{filtro}%';", "clientes").Tables[0];
-            tabla.Columns.Insert(6, Boton("Borrar", Color.Red));
-            tabla.Columns.Insert(7, Boton("Modificar", Color.Green));
+            tabla.Columns.Insert(6, Boton("Historial", Color.BlueViolet));
+            tabla.Columns.Insert(7, Boton("Borrar", Color.Red));
+            tabla.Columns.Insert(8, Boton("Modificar", Color.Green));
             tabla.AutoResizeColumns();
             tabla.AutoResizeRows();
         }

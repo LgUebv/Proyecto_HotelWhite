@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\frmclientes2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\frmclientes2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\frmhabitacion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\frmhabitacion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\frmhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\frmhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\frmreservaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\frmreservaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|c:\\users\\josem\\source\\repos\\proyectohotel\\proyectohotel\\frmhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3EFD8141-B76C-4847-9CE5-E2750B240E95}|ProyectoHotel\\ProyectoHotel.csproj|solutionrelative:proyectohotel\\frmhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 707,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,102 +35,59 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 707,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\FrmLogin.cs",
-              "RelativeDocumentMoniker": "ProyectoHotel\\FrmLogin.cs",
-              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\FrmLogin.cs",
-              "RelativeToolTip": "ProyectoHotel\\FrmLogin.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAlwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:19:05.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\FrmLogin.cs",
-              "RelativeDocumentMoniker": "ProyectoHotel\\FrmLogin.cs",
-              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\FrmLogin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoHotel\\FrmLogin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:16:38.411Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FrmUsuarios.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\FrmUsuarios.cs",
               "RelativeDocumentMoniker": "ProyectoHotel\\FrmUsuarios.cs",
               "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\FrmUsuarios.cs [Dise\u00F1o]",
               "RelativeToolTip": "ProyectoHotel\\FrmUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:14:53.685Z",
+              "WhenOpened": "2024-11-29T23:52:51.726Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmReservaciones.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmReservaciones.cs",
-              "RelativeDocumentMoniker": "ProyectoHotel\\frmReservaciones.cs",
-              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmReservaciones.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoHotel\\frmReservaciones.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:14:52.496Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "frmHabitaciones.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmHabitaciones.cs",
               "RelativeDocumentMoniker": "ProyectoHotel\\frmHabitaciones.cs",
               "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmHabitaciones.cs [Dise\u00F1o]",
               "RelativeToolTip": "ProyectoHotel\\frmHabitaciones.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:14:48.556Z",
+              "WhenOpened": "2024-11-29T23:51:45.222Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmHabitacion2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmHabitacion2.cs",
-              "RelativeDocumentMoniker": "ProyectoHotel\\frmHabitacion2.cs",
-              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmHabitacion2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoHotel\\frmHabitacion2.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:14:47.844Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmClientes2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmClientes2.cs",
-              "RelativeDocumentMoniker": "ProyectoHotel\\frmClientes2.cs",
-              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmClientes2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoHotel\\frmClientes2.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:14:45.185Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmClientes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmClientes.cs",
               "RelativeDocumentMoniker": "ProyectoHotel\\frmClientes.cs",
               "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmClientes.cs [Dise\u00F1o]",
               "RelativeToolTip": "ProyectoHotel\\frmClientes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:14:43.928Z",
+              "WhenOpened": "2024-11-29T23:51:23.156Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmReservaciones.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmReservaciones.cs",
+              "RelativeDocumentMoniker": "ProyectoHotel\\frmReservaciones.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoHotel\\ProyectoHotel\\frmReservaciones.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoHotel\\frmReservaciones.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T23:46:04.671Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

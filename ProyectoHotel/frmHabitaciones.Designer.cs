@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnSalir = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvHabitaciones)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -58,17 +59,17 @@
             this.dtgvHabitaciones.AllowUserToDeleteRows = false;
             this.dtgvHabitaciones.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dtgvHabitaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvHabitaciones.Location = new System.Drawing.Point(14, 85);
+            this.dtgvHabitaciones.Location = new System.Drawing.Point(14, 107);
             this.dtgvHabitaciones.Margin = new System.Windows.Forms.Padding(5);
             this.dtgvHabitaciones.Name = "dtgvHabitaciones";
             this.dtgvHabitaciones.RowHeadersWidth = 51;
-            this.dtgvHabitaciones.Size = new System.Drawing.Size(702, 321);
+            this.dtgvHabitaciones.Size = new System.Drawing.Size(702, 299);
             this.dtgvHabitaciones.TabIndex = 6;
             this.dtgvHabitaciones.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvHabitaciones_CellClick);
             // 
             // txtHabitacion
             // 
-            this.txtHabitacion.BackColor = System.Drawing.SystemColors.Control;
+            this.txtHabitacion.BackColor = System.Drawing.SystemColors.Window;
             this.txtHabitacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtHabitacion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHabitacion.Location = new System.Drawing.Point(262, 51);
@@ -113,12 +114,23 @@
             this.panel1.Size = new System.Drawing.Size(911, 33);
             this.panel1.TabIndex = 75;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(375, 83);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(178, 16);
+            this.label2.TabIndex = 78;
+            this.label2.Text = "Ingrese el ID de la habitacion";
+            // 
             // frmHabitaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(727, 417);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dtgvHabitaciones);
@@ -128,6 +140,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "frmHabitaciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmHabitaciones";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvHabitaciones)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -145,5 +158,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label btnSalir;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label2;
     }
 }
