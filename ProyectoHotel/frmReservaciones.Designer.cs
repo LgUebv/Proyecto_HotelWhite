@@ -44,7 +44,7 @@
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.Location = new System.Drawing.Point(660, 49);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(5);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(56, 29);
             this.btnAgregar.TabIndex = 15;
@@ -54,10 +54,12 @@
             // 
             // dtgvReservaciones
             // 
+            this.dtgvReservaciones.AllowUserToAddRows = false;
+            this.dtgvReservaciones.AllowUserToDeleteRows = false;
             this.dtgvReservaciones.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dtgvReservaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvReservaciones.Location = new System.Drawing.Point(14, 85);
-            this.dtgvReservaciones.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dtgvReservaciones.Margin = new System.Windows.Forms.Padding(5);
             this.dtgvReservaciones.Name = "dtgvReservaciones";
             this.dtgvReservaciones.RowHeadersWidth = 51;
             this.dtgvReservaciones.Size = new System.Drawing.Size(702, 321);
@@ -69,7 +71,7 @@
             this.txtReservaciones.BackColor = System.Drawing.SystemColors.Control;
             this.txtReservaciones.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtReservaciones.Location = new System.Drawing.Point(211, 50);
-            this.txtReservaciones.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtReservaciones.Margin = new System.Windows.Forms.Padding(5);
             this.txtReservaciones.Name = "txtReservaciones";
             this.txtReservaciones.Size = new System.Drawing.Size(439, 27);
             this.txtReservaciones.TabIndex = 13;
@@ -123,7 +125,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmReservaciones";
             this.Text = "frmReservaciones";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvReservaciones)).EndInit();

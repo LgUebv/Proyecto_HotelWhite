@@ -39,6 +39,8 @@
             // 
             // dtgvClientes
             // 
+            this.dtgvClientes.AllowUserToAddRows = false;
+            this.dtgvClientes.AllowUserToDeleteRows = false;
             this.dtgvClientes.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dtgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvClientes.Location = new System.Drawing.Point(13, 82);

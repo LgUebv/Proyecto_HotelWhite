@@ -39,10 +39,12 @@
             // 
             // dtgvHabitaciones
             // 
+            this.dtgvHabitaciones.AllowUserToAddRows = false;
+            this.dtgvHabitaciones.AllowUserToDeleteRows = false;
             this.dtgvHabitaciones.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dtgvHabitaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvHabitaciones.Location = new System.Drawing.Point(14, 85);
-            this.dtgvHabitaciones.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dtgvHabitaciones.Margin = new System.Windows.Forms.Padding(5);
             this.dtgvHabitaciones.Name = "dtgvHabitaciones";
             this.dtgvHabitaciones.RowHeadersWidth = 51;
             this.dtgvHabitaciones.Size = new System.Drawing.Size(702, 321);
@@ -55,7 +57,7 @@
             this.txtHabitacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtHabitacion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHabitacion.Location = new System.Drawing.Point(262, 53);
-            this.txtHabitacion.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtHabitacion.Margin = new System.Windows.Forms.Padding(5);
             this.txtHabitacion.Name = "txtHabitacion";
             this.txtHabitacion.Size = new System.Drawing.Size(454, 27);
             this.txtHabitacion.TabIndex = 72;
@@ -108,7 +110,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmHabitacion2";
             this.Text = "frmHabitacion2";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvHabitaciones)).EndInit();

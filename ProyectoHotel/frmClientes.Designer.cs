@@ -42,7 +42,7 @@
             this.btnAgregar.BackColor = System.Drawing.Color.MistyRose;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(657, 45);
+            this.btnAgregar.Location = new System.Drawing.Point(648, 45);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(56, 29);
@@ -54,13 +54,15 @@
             // 
             // dtgvClientes
             // 
+            this.dtgvClientes.AllowUserToAddRows = false;
+            this.dtgvClientes.AllowUserToDeleteRows = false;
             this.dtgvClientes.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dtgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvClientes.Location = new System.Drawing.Point(13, 82);
             this.dtgvClientes.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvClientes.Name = "dtgvClientes";
             this.dtgvClientes.RowHeadersWidth = 51;
-            this.dtgvClientes.Size = new System.Drawing.Size(702, 321);
+            this.dtgvClientes.Size = new System.Drawing.Size(691, 321);
             this.dtgvClientes.TabIndex = 10;
             this.dtgvClientes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvClientes_CellClick);
             // 
@@ -92,7 +94,7 @@
             this.btnSalir.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSalir.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.Color.Red;
-            this.btnSalir.Location = new System.Drawing.Point(700, 1);
+            this.btnSalir.Location = new System.Drawing.Point(687, 1);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(21, 23);
             this.btnSalir.TabIndex = 14;
@@ -112,7 +114,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(726, 414);
+            this.ClientSize = new System.Drawing.Size(716, 414);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnAgregar);

@@ -44,7 +44,7 @@
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.Location = new System.Drawing.Point(660, 50);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(5);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(56, 29);
             this.btnAgregar.TabIndex = 7;
@@ -54,10 +54,12 @@
             // 
             // dtgvHabitaciones
             // 
+            this.dtgvHabitaciones.AllowUserToAddRows = false;
+            this.dtgvHabitaciones.AllowUserToDeleteRows = false;
             this.dtgvHabitaciones.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dtgvHabitaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvHabitaciones.Location = new System.Drawing.Point(14, 85);
-            this.dtgvHabitaciones.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dtgvHabitaciones.Margin = new System.Windows.Forms.Padding(5);
             this.dtgvHabitaciones.Name = "dtgvHabitaciones";
             this.dtgvHabitaciones.RowHeadersWidth = 51;
             this.dtgvHabitaciones.Size = new System.Drawing.Size(702, 321);
@@ -70,7 +72,7 @@
             this.txtHabitacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtHabitacion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHabitacion.Location = new System.Drawing.Point(262, 51);
-            this.txtHabitacion.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtHabitacion.Margin = new System.Windows.Forms.Padding(5);
             this.txtHabitacion.Name = "txtHabitacion";
             this.txtHabitacion.Size = new System.Drawing.Size(388, 27);
             this.txtHabitacion.TabIndex = 5;
