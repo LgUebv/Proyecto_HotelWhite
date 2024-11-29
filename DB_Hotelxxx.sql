@@ -22,10 +22,10 @@ alter table Clientes add column Telefono varchar(10);
 describe Clientes;
 select * from clientes;
 
-
+drop table Habitaciones;
 create table Habitaciones(
     idHabitacion int primary key auto_increment,
-    Tipo enum('Individual', 'Matrimonial', 'Cogelona'),
+    Tipo enum('Simple', 'Suite'),
     Capacidad int,
     PrecioNoche decimal(10,2),
     Estado enum('Disponible', 'Ocupada'),
@@ -151,7 +151,7 @@ create procedure p_AgregarHabitacion(
     in p_Descripcion varchar(255)
 )
 begin
-    if p_Tipo in ('Individual', 'Matrimonial', 'Cogelona') 
+    if p_Tipo in ('Simple', 'Suite') 
     and p_Estado in ('Disponible', 'Ocupada') then
         insert into Habitaciones (Tipo, Capacidad, PrecioNoche, Estado, Descripcion)
         values (p_Tipo, p_Capacidad, p_PrecioNoche, p_Estado, p_Descripcion);
@@ -171,7 +171,7 @@ create procedure p_EditarHabitacion(
     in p_Descripcion varchar(255)
 )
 begin
-    if p_Tipo in ('Individual', 'Matrimonial', 'Cogelona') 
+    if p_Tipo in ('Simple', 'Suite') 
     and p_Estado in ('Disponible', 'Ocupada') then
         update Habitaciones
         set Tipo = p_Tipo,
