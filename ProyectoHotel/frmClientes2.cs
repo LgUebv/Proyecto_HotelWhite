@@ -17,6 +17,12 @@ namespace ProyectoHotel
         public string nivelUsuario;
         public static int IDC = 0;
         public static string Nombre, ApellidoP, ApellidoM, Email, Telefono = "";
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         int fila = 0, columna = 0;
         public frmClientes2()
         {

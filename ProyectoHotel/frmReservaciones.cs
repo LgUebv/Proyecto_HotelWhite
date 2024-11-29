@@ -19,6 +19,12 @@ namespace ProyectoHotel
         public static int IDR, IDC, IDH, Dias = 0;
         public static string FechaInicio, FechaFin = "";
         int fila = 0, columna = 0;
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         public frmReservaciones(string nivelUsuario)
         {
             InitializeComponent();

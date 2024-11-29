@@ -17,6 +17,12 @@ namespace ProyectoHotel
         private string nivelUsuario;
         public static int IDH = 0;
         public static string Tipo, Costo, Capacidad, Estado, Descripcion = "";
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         int fila = 0, columna = 0;
         public frmHabitacion2()
         {

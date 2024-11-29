@@ -32,113 +32,104 @@
             this.dtgvHabitaciones = new System.Windows.Forms.DataGridView();
             this.txtHabitacion = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnSalir = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvHabitaciones)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnAgregar
             // 
+            this.btnAgregar.BackColor = System.Drawing.Color.MistyRose;
+            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(645, 87);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAgregar.Location = new System.Drawing.Point(660, 50);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(56, 34);
+            this.btnAgregar.Size = new System.Drawing.Size(56, 29);
             this.btnAgregar.TabIndex = 7;
             this.btnAgregar.Text = "+";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // dtgvHabitaciones
             // 
+            this.dtgvHabitaciones.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dtgvHabitaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvHabitaciones.Location = new System.Drawing.Point(13, 151);
-            this.dtgvHabitaciones.Margin = new System.Windows.Forms.Padding(4);
+            this.dtgvHabitaciones.Location = new System.Drawing.Point(14, 85);
+            this.dtgvHabitaciones.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.dtgvHabitaciones.Name = "dtgvHabitaciones";
             this.dtgvHabitaciones.RowHeadersWidth = 51;
-            this.dtgvHabitaciones.Size = new System.Drawing.Size(688, 388);
+            this.dtgvHabitaciones.Size = new System.Drawing.Size(702, 321);
             this.dtgvHabitaciones.TabIndex = 6;
             this.dtgvHabitaciones.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvHabitaciones_CellClick);
-            this.dtgvHabitaciones.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvHabitaciones_CellContentClick);
             // 
             // txtHabitacion
             // 
-            this.txtHabitacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHabitacion.Location = new System.Drawing.Point(344, 90);
-            this.txtHabitacion.Margin = new System.Windows.Forms.Padding(4);
+            this.txtHabitacion.BackColor = System.Drawing.SystemColors.Control;
+            this.txtHabitacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtHabitacion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHabitacion.Location = new System.Drawing.Point(262, 51);
+            this.txtHabitacion.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtHabitacion.Name = "txtHabitacion";
-            this.txtHabitacion.Size = new System.Drawing.Size(292, 28);
+            this.txtHabitacion.Size = new System.Drawing.Size(388, 27);
             this.txtHabitacion.TabIndex = 5;
             this.txtHabitacion.TextChanged += new System.EventHandler(this.txtHabitacion_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(14, 86);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(14, 50);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(322, 33);
+            this.label1.Size = new System.Drawing.Size(238, 28);
             this.label1.TabIndex = 4;
-            this.label1.Text = "TIPO DE HABITACIÓN";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Text = "Tipo de Habitacion:";
             // 
-            // label4
+            // btnSalir
             // 
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(196)))), ((int)(((byte)(200)))));
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(375, -59);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(1019, 133);
-            this.label4.TabIndex = 70;
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.btnSalir.AutoSize = true;
+            this.btnSalir.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnSalir.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.ForeColor = System.Drawing.Color.Red;
+            this.btnSalir.Location = new System.Drawing.Point(699, 3);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(21, 23);
+            this.btnSalir.TabIndex = 23;
+            this.btnSalir.Text = "x";
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // label3
+            // panel1
             // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(132)))), ((int)(((byte)(148)))));
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(-97, -59);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1019, 133);
-            this.label3.TabIndex = 69;
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(36)))), ((int)(((byte)(60)))));
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(-425, -59);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1025, 133);
-            this.label2.TabIndex = 68;
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Controls.Add(this.btnSalir);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(911, 33);
+            this.panel1.TabIndex = 75;
             // 
             // frmHabitaciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(723, 552);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ClientSize = new System.Drawing.Size(727, 417);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dtgvHabitaciones);
             this.Controls.Add(this.txtHabitacion);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "frmHabitaciones";
             this.Text = "frmHabitaciones";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvHabitaciones)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -150,8 +141,7 @@
         private System.Windows.Forms.DataGridView dtgvHabitaciones;
         private System.Windows.Forms.TextBox txtHabitacion;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label btnSalir;
+        private System.Windows.Forms.Panel panel1;
     }
 }

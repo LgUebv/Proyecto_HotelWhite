@@ -19,29 +19,9 @@ namespace ProyectoHotel
         public static string Nombre, ApellidoP, ApellidoM, Email, Telefono = "";
         int fila = 0, columna = 0;
 
-        private void dtgvClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
 
         ManejadorCliente mc;

@@ -20,29 +20,9 @@ namespace ProyectoHotel
         public static string Tipo, Costo, Capacidad, Estado, Descripcion = "";
         int fila = 0, columna = 0;
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dtgvHabitaciones_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            this.Close();
         }
 
         public frmHabitaciones(string nivelUsuario)

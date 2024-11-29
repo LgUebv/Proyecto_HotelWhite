@@ -19,6 +19,11 @@ namespace ProyectoHotel
         public static string Username, Password, Rol, Nombre, Apellidos = "";
         int fila = 0, columna = 0;
 
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void label3_Click(object sender, EventArgs e)
         {
 
